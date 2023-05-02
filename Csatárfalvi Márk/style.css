@@ -1,20 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
 body {
-    background-color: #97b1c0;
-}
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-color: #d3ebf7;
+   }
 
-.card {
-    background-color: #1a4158;
-    color: #2ef338;
-}
-
-.card-subtitle {
-    color: #97b1c0;
-}
-
-.card-body p {
-    text-align: right;
-}
-
-form {
-    width: 600px
+elso {
+ border-radius: 10px;
 }
