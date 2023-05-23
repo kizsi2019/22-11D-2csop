@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    background-color: #d3ebf7;
+   }
+
+elso {
+ border-radius: 10px;
+}
