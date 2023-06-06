@@ -1,4 +1,4 @@
-from flask import Flask, redirect, url_for
+from flask import Flask, redirect, url_for, render_template
 from datetime import datetime
 
 app = Flask(__name__)
@@ -7,7 +7,7 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/home')
 def home():
-    return 'Üdv a SuliPY oldalán!'
+    return render_template('index.html')
 
 
 @app.route('/message_board')
@@ -22,7 +22,7 @@ def course(number):
 
 @app.route('/contact')
 def contact():
-    return 'Jelentkezés a kurzusokra: info@sulipy.hu'
+    return render_template('contact.html')
 
 
 @app.route('/time')
